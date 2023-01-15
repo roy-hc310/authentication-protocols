@@ -14,6 +14,7 @@ import (
 	facebookOAuth "golang.org/x/oauth2/facebook"
 )
 
+// heheh
 var oauthStateStringFl = "thisshouldberandom"
 var oauthConfF1 = &oauth2.Config{
 	ClientID:     config.FacebookClientID,
