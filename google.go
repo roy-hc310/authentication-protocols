@@ -23,6 +23,7 @@ var oauthConfG1 = &oauth2.Config{
 	Endpoint:     google.Endpoint,
 }
 
+// hehjeh
 func (h Handler) HandleGoogleLogin(c echo.Context) error {
 
 	URL, err := url.Parse(oauthConfG1.Endpoint.AuthURL)
