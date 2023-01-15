@@ -11,6 +11,7 @@ import (
 
 var config = LoadConfig(".")
 
+// heheh
 func main() {
 
 	db := Init()
