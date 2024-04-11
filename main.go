@@ -13,6 +13,7 @@ var config = LoadConfig(".")
 
 // heheh
 func main() {
+	// test nha
 
 	db := Init()
 	e := echo.New()
